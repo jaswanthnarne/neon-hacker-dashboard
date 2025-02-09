@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Sidebar } from "@/components/layout/sidebar";
-import { Shield, Bug, Globe, Terminal, Users, BookOpen, AlertTriangle } from "lucide-react";
+import { Shield, Bug, Globe, Terminal, Users, BookOpen, AlertTriangle, Box, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -33,6 +33,16 @@ const About = () => {
       icon: Terminal,
       title: "Interactive Shell",
       description: "Real-time execution of commands with instant response."
+    },
+    {
+      icon: Box,
+      title: "HoaxShell Integration",
+      description: "Uses PowerShell payloads to bypass some security measures."
+    },
+    {
+      icon: Monitor,
+      title: "Designed for Local Use",
+      description: "Works in a VirtualBox environment for safe testing."
     }
   ];
 
@@ -46,6 +56,11 @@ const About = () => {
       icon: Bug,
       title: "No Built-in Encryption",
       description: "Commands and responses are not encrypted by default."
+    },
+    {
+      icon: AlertTriangle,
+      title: "Manual Payload Execution",
+      description: "The victim must manually run the generated payload."
     },
     {
       icon: AlertTriangle,
@@ -80,15 +95,15 @@ const About = () => {
                   Framework Overview
                 </CardTitle>
                 <CardDescription>
-                  Unlike traditional terminal-based C2 frameworks, Kira C2 offers a visually rich experience.
+                  Experience a visually rich C2 framework designed for modern red teaming.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="prose prose-invert max-w-none">
                   <p className="text-cyber-foreground/80">
-                    Kira C2 is built for researchers and red teamers who prefer a modern, intuitive interface
-                    over traditional command-line tools. It's specifically designed for use in controlled,
-                    local environments like VirtualBox for safe testing and research.
+                    Unlike traditional terminal-based C2 frameworks, Kira C2 offers a visually rich experience,
+                    making it easier to interact with connected agents. Execute commands and retrieve output in
+                    real-time through an intuitive web interface.
                   </p>
                 </div>
               </CardContent>
@@ -97,7 +112,7 @@ const About = () => {
             {/* Advantages Section */}
             <Card className="cyber-panel opacity-0 animate-fade-in" style={{ animationDelay: "600ms", animationFillMode: "forwards" }}>
               <CardHeader>
-                <CardTitle className="text-cyber-primary">Advantages</CardTitle>
+                <CardTitle className="text-cyber-primary">🔥 Advantages</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
@@ -117,7 +132,7 @@ const About = () => {
             {/* Disadvantages Section */}
             <Card className="cyber-panel opacity-0 animate-fade-in" style={{ animationDelay: "800ms", animationFillMode: "forwards" }}>
               <CardHeader>
-                <CardTitle className="text-red-500">Limitations</CardTitle>
+                <CardTitle className="text-red-500">❌ Limitations</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
