@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Payloads from "./pages/Payloads";
 import Listeners from "./pages/Listeners";
 import Connections from "./pages/Connections";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/payloads" element={<Payloads />} />
           <Route path="/listeners" element={<Listeners />} />
           <Route path="/connections" element={<Connections />} />
+          <Route path="/about" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
