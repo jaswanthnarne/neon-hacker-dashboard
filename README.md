@@ -1,8 +1,8 @@
-# 🎯✨ Welcome to My Project! 🎉💻  
+# 🎯✨ Welcome to our Project! 🎉💻  
 
 ## 📌 Project Info 📝  
 
-This is **my personal project** 🏗️, designed and developed with **cutting-edge technologies** 🛠️ to ensure **high performance 🚀** and a **seamless user experience** 🎨.  
+This is **our personal project** 🏗️, designed and developed with **cutting-edge technologies** 🛠️ to ensure **high performance 🚀** and a **seamless user experience** 🎨.  
 
 ---  
 
